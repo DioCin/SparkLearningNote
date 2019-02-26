@@ -7,12 +7,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="test3" />
-    <orderEntry type="module" module-name="test25" />
-    <orderEntry type="module" module-name="main24" />
-    <orderEntry type="module" module-name="main9" />
-    <orderEntry type="module" module-name="test22" />
-    <orderEntry type="module" module-name="main10" />
-    <orderEntry type="module" module-name="test19" />
+    <orderEntry type="module" module-name="main1" />
+    <orderEntry type="module" module-name="test6" />
+    <orderEntry type="module" module-name="test7" />
+    <orderEntry type="module" module-name="test20" />
+    <orderEntry type="module" module-name="main25" />
+    <orderEntry type="module" module-name="test16" />
+    <orderEntry type="module" module-name="main18" />
   </component>
 </module>

@@ -30,7 +30,7 @@ class EdgePartitionBuilder[@specialized(Long, Int, Double) ED: ClassTag, VD: Cla
   private[this] val edges = new PrimitiveVector[Edge[ED]](size)
 
   /** Add a new edge to the partition. */
-  def Eadd(src: VertexId, dst: VertexId, d: ED) {
+  def add(src: VertexId, dst: VertexId, d: ED) {
     edges += Edge(src, dst, d)
   }
 
@@ -45,7 +45,8 @@ class EdgePartitionBuilder[@specialized(Long, Int, Double) ED: ClassTag, VD: Cla
 
     val localSrcIds = new Array[Int](edgeArray.length)
     val localDstIds = new Array[Int](edgeArray.length)
-    val data = new Array[ED](edgeArray.length) //存储边的属性
+    //存储边的属性
+    val data = new Array[ED](edgeArray.length)
     val index = new GraphXPrimitiveKeyOpenHashMap[VertexId, Int] //保存相同srcid的第一个索引值
     val global2local = new GraphXPrimitiveKeyOpenHashMap[VertexId, Int]
     val local2global = new PrimitiveVector[VertexId]

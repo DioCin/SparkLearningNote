@@ -8,11 +8,11 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="test3" />
-    <orderEntry type="module" module-name="main16" />
-    <orderEntry type="module" module-name="test21" />
-    <orderEntry type="module" module-name="main9" />
-    <orderEntry type="module" module-name="main6" />
-    <orderEntry type="module" module-name="test22" />
+    <orderEntry type="module" module-name="test2" />
+    <orderEntry type="module" module-name="main22" />
+    <orderEntry type="module" module-name="main1" />
+    <orderEntry type="module" module-name="test6" />
+    <orderEntry type="module" module-name="main28" />
+    <orderEntry type="module" module-name="test16" />
   </component>
 </module>
